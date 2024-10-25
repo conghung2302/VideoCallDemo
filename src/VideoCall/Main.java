@@ -1,4 +1,4 @@
-package client;
+package VideoCall;
 
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferByte;
@@ -11,7 +11,7 @@ import org.opencv.core.Mat;
 import org.opencv.videoio.VideoCapture;
 import org.opencv.highgui.HighGui;
 
-public class CameraCaptureExample {
+public class Main {
     static {
         // Load the OpenCV native library
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
